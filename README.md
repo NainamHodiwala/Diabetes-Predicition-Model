@@ -1,4 +1,4 @@
-# 🩺 Diabetes Prediction using Machine Learning
+## Diabetes Prediction using Machine Learning
 
 This project is a machine learning pipeline that predicts whether a patient has diabetes using health-related attributes such as Glucose level, Blood Pressure, BMI, and more. It follows a modular and production-ready structure.
 
@@ -6,10 +6,20 @@ This project is a machine learning pipeline that predicts whether a patient has 
 
 ##  Project Structure
 
+Diabetes-Prediction-Model
+│ ├── Dashboard.py # Main Streamlit app for diabetes prediction
+├── requirements.txt # Python dependencies
+├── README.md # Project overview and documentation
+├── .gitignore # Git ignored files (if any) │
+├── data / └── diabetes.csv │ 
+├── docs /Diabetes_Prediction_Report
+├── models/ # (Optional) For saved model files (pkl, etc.) │ └── logistic_model.pkl │ └── assets/ 
+dashboard_screenshot.png
 
----
 
-## 📊 Dataset
+
+
+##  Dataset
 
 The dataset contains the following features:
 
@@ -27,7 +37,7 @@ You can download the dataset from [Kaggle - Pima Indians Diabetes Dataset](https
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. **Clone the repository**
 
