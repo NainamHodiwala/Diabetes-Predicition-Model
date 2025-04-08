@@ -1,0 +1,38 @@
+Insurance Cost Prediction Project
+
+Objective
+The objective of this project is to build a machine learning model to predict insurance costs based on personal attributes such as age, sex, BMI, number of children, smoking status, and region.
+
+Dataset Used
+Name: Insurance Dataset
+Source: Assumed to be `insurance.csv` (not explicitly provided)
+Features: 
+  - `age` (int): Age of the individual
+  - `sex` (categorical): Male (0) or Female (1)
+  - `bmi` (float): Body Mass Index
+  - `children` (int): Number of children
+  - `smoker` (categorical): Yes (0) or No (1)
+  - `region` (categorical): Southeast (0), Southwest (1), Northeast (2), Northwest (3)
+Target: `charges` (float): Insurance cost in USD
+Size: 1338 rows, 7 columns
+
+ Model Chosen
+Model: Linear Regression
+Reason: Suitable for continuous target variables like insurance costs and provides interpretable results.
+
+## Performance Metrics
+-Training R² Score: 0.7515 (indicating 75.15% variance explained)
+- Testing R² Score: 0.7447 (indicating 74.47% variance explained on unseen data)
+- Interpretation: The model performs consistently on both training and test sets, suggesting good generalization with moderate predictive power.
+
+## Challenges & Learnings
+-Challenges: 
+  - Limited feature set may not capture all factors affecting insurance costs.
+  - Linear Regression assumes a linear relationship, which may oversimplify the problem.
+- Learnings: 
+  - Importance of encoding categorical variables for machine learning models.
+  - Splitting data into training and testing sets helps evaluate model performance on unseen data.
+  - R² score provides a clear metric for regression model evaluation.
+
+Date: April 07, 2025  
+Team: [Your Name], [Partner’s Name]
